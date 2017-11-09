@@ -1,28 +1,78 @@
-.App {
+.app-container {
   text-align: center;
+  height: 100%;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(75, 131, 172);
+  font-size: 24px;
+  padding: 10px 0px 10px 0px;
   color: white;
 }
 
-.App-title {
-  font-size: 1.5em;
+a {
+  color: rgb(158, 208, 235);
 }
 
-.App-intro {
-  font-size: large;
+a:link {
+  color: rgb(158, 208, 235);
+  text-decoration: none;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+a:hover {
+  color: #F26419;
+}
+
+a:active {
+  color: white;
+}
+
+.body {
+  background-color: rgb(41, 68, 85);
+  padding: 20px;
+  color: #BFC0C0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 32px;
+  margin: 22px 0px 22px 0px;
+  color: #ffffff;
+}
+
+.welcome {
+  height: 120px;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 10px 20px 10px;
+}
+
+.welcome-div {
+  height: 120px;
+  width: 140px;
+  background-color: silver;
+  color: white;
+  padding: 12px;
+  margin: 0px 10px 0px 10px;
+  font-family: 'Trocchi', serif;
+} 
+
+.space {
+  height: 70px;
+}
+
+.footer {
+  background-color: rgb(75, 131, 172);
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  color: #86BBD8;
 }
