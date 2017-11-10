@@ -15,24 +15,12 @@
   width: 100vw;
 }
 
-.home-icon {
+.mobile-nav {
   visibility: hidden;
-  font-size: 34px;
-}
-
-.contact-icon {
-  visibility: hidden;
-  font-size: 38px;
 }
 
 @media only screen and (max-width: 1100px) {
-  .home-icon {
-    visibility: hidden;
-  }
 
-  .contact-icon {
-    visibility: hidden;
-  }
 }
 
 @media only screen and (max-width: 641px) {
@@ -40,14 +28,8 @@
     visibility: hidden;
   }
   
-  .home-icon {
+  .mobile-nav {
     visibility: visible;
-    margin: 0px 80px 10px 0px;
-  }
-  
-  .contact-icon {
-    visibility: visible;
-    margin: 5px 72px 10px 0px;
   }
 }
 
@@ -56,19 +38,17 @@
     visibility: hidden;
   }
 
-  .home-icon {
+  .mobile-nav {
     visibility: visible;
-    margin: 0px 50px 0px 0px;
-  }
-
-  .contact-icon {
-    visibility: visible;
-    margin: 0px 90px 0px 0px;
   }
 }
 
 @media only screen and (max-width: 420px) {
   .header {
     position: fixed;
+  }
+
+  .mobile-nav {
+    visibility: visible;
   }
 }

@@ -1,7 +1,3 @@
-.lazy {
-  visibility: hidden;
-}
-
 .body {
   background-color: rgb(17, 64, 94);
   padding: 20px;

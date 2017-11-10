@@ -21,12 +21,12 @@ const Contact = () => {
                     </div>
                     <div className="email-phone-wrap">
                         <div className="email-phone-row">
-                            <p style={{ marginRight: '14px', fontSize: '16px' }}>kylie.stewart@me.com</p>
-                            <MailIcon width="50px"/>
+                            <p style={{ marginRight: '14px', fontSize: '16px', paddingBottom: '2px' }}>kylie.stewart@me.com</p>
+                            <MailIcon width="43px"/>
                         </div>
                         <div className="email-phone-row">
-                            <PhoneIcon width="50px"/>
-                            <p style={{ marginLeft: '8px', fontSize: '16px' }}>(202) 713-8956</p>    
+                            <PhoneIcon width="43px"/>
+                            <p style={{ marginLeft: '8px', fontSize: '16px', paddingBottom: '9px' }}>(202) 713-8956</p>    
                         </div>
                     </div>
                     <div className="github-linkedin-wrap">

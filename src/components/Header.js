@@ -7,13 +7,16 @@ const Header = () => {
   return (
     <div>
       <div className="header">
-        <a className="lazy"></a>
-        <Link to="/"><div className="fullsize-nav" href="">HOME</div></Link>
-        <div></div><Link to="/"><HomeIcon width='35px' height='35px'/></Link>
-        <a className="fullsize-nav" href="http://kyliestewart.tech">PORTFOLIO SITE</a>
-        <a className="lazy"></a>
-        <Link to="/talk"><div className="fullsize-nav" href="">HIRE ME</div></Link>
-        <div></div><Link to="/talk"><TalkIcon width='35px' height='35px'/></Link>
+        <Link to="/"><div className="fullsize-nav">HOME</div></Link>
+        <div className="mobile-nav">
+          <Link to="/"><HomeIcon width='35px' height='35px'/></Link>
+        </div>
+        <a className="fullsize-nav" href="http://kyliestewart.tech">
+          PORTFOLIO SITE</a>
+        <div className="mobile-nav">
+          <Link to="/talk"><TalkIcon width='35px' height='35px'/></Link>
+        </div>
+        <Link to="/talk"><div className="fullsize-nav">HIRE ME</div></Link>
       </div>
     </div>
   );
