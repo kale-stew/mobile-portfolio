@@ -8,11 +8,11 @@ const Header = () => {
       <div className="header">
         <a className="lazy"></a>
         <Link to="/"><div className="fullsize-nav" href="">HOME</div></Link>
-        <a className="home-icon" href="">⌂</a>
+        <Link to="/"><div className="home-icon" href="">⌂</div></Link>
         <a className="fullsize-nav" href="http://kyliestewart.tech">PORTFOLIO SITE</a>
         <a className="lazy"></a>
         <Link to="/talk"><div className="fullsize-nav" href="">CONTACT</div></Link>
-        <a className="contact-icon" href="">✍︎</a>
+        <Link to="/talk"><div className="contact-icon" href="">✍︎</div></Link>
       </div>
     </div>
   );

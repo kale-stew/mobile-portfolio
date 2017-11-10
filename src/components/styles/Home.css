@@ -37,6 +37,7 @@
 	color: #FFF;
 	white-space: nowrap;
   cursor: default;
+  margin-bottom: 4vh;
 }
 	
 .reveal-text:after {
