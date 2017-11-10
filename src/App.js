@@ -6,11 +6,13 @@ class App extends Component {
     return (
       <div className="app-container">
         <header className="header">
+          <a className="lazy"></a>
           <a className="fullsize-nav" href="">HOME</a>
-          <a className="home-icon" href=""></a>
+          <a className="home-icon" href="">⌂</a>
           <a className="fullsize-nav" href="">PORTFOLIO SITE</a>
+          <a className="lazy"></a>
           <a className="fullsize-nav" href="">CONTACT</a>
-          <a className="contact-icon" href=""></a>
+          <a className="contact-icon" href="">✍︎</a>
         </header>
         <div className="body">
           <h1 className="reveal-text">Kylie Stewart</h1>
