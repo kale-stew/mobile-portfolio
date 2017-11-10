@@ -17,16 +17,16 @@ const Contact = () => {
             <StyleRoot>
                 <div className="contact-container" style={styles.fadeIn}>
                     <div>
-                        <h3>I am available for freelance work</h3>
+                        <h1>I am available for freelance work</h1>
                     </div>
                     <div className="email-phone-wrap">
                         <div className="email-phone-row">
+                            <p style={{ marginRight: '14px', fontSize: '16px' }}>kylie.stewart@me.com</p>
                             <MailIcon width="50px"/>
-                            <p style={{ marginLeft: '14px' }}>kylie.stewart@me.com</p>
                         </div>
                         <div className="email-phone-row">
                             <PhoneIcon width="50px"/>
-                            <p style={{ marginLeft: '14px' }}>(202) 713-8956</p>    
+                            <p style={{ marginLeft: '8px', fontSize: '16px' }}>(202) 713-8956</p>    
                         </div>
                     </div>
                     <div className="github-linkedin-wrap">
