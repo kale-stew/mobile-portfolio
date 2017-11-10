@@ -89,11 +89,15 @@
 }
 
 .aboutme {
-  width: 50vw;
-  padding: 10px 20px 10px 20px;
-  background-color: rgba(255, 255, 255, 0.425);
+  width: 60vw;
+  padding: 10px 45px 10px 45px;
+  background-color: rgba(255, 255, 255, 0.37);
   margin-bottom: 3%;
   color: white;
+}
+
+p {
+  line-height: 130%;
 }
 
 .welcome {
@@ -107,7 +111,7 @@
 .welcome-div {
   height: 133px;
   width: 24vw;
-  background-color: rgba(255, 255, 255, 0.548);
+  background-color: rgba(255, 255, 255, 0.658);
   color: white;
   margin: 0px 2px 8px 2px;
   padding: 5px 9px 5px 11px;
