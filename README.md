@@ -6,7 +6,7 @@ A repo for my website: `kylieis.online`. I wanted to create a website that, unli
 
 ## Status Bar:
 
-|- ## ------------------------------------------| 
+|- ########## ----------------------------------| 
 
-#### I am currently <i>2%</i> finished with this project 
+#### I am currently <i>35%</i> finished with this project 
 
