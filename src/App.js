@@ -1,9 +1,19 @@
 import React, { Component } from 'react';
+import { fadeIn } from 'react-animations';
+import Radium, { StyleRoot } from 'radium';
 import './App.css';
+
+const styles = {
+  fadeIn: {
+    animation: 'x 1s',
+    animationName: Radium.keyframes(fadeIn, 'fadeIn')
+  }
+}
 
 class App extends Component {
   render() {
     return (
+      <StyleRoot>
       <div className="app-container">
         <header className="header">
           <a className="lazy"></a>
@@ -19,21 +29,25 @@ class App extends Component {
           <div className="aboutme">
             <p></p>
           </div>
-          <div className="welcome">
+          <div className="welcome" style={styles.fadeIn}>
             <div className="welcome-div">
               <h2>Should I Hike Today?</h2>
-              <p>More about me</p></div>
+              <p>More about this thing</p></div>
             <div className="welcome-div">
+              <h2>Machine Learning 101</h2>
+              <p>More about this thing</p></div>
+              <div className="welcome-div">
               <h2>Locus: News Aggregator</h2>
-              <p>More about me</p></div>
+              <p>More about this thing</p></div>
             <div className="welcome-div">
-              <p>More about me</p></div>
+              <h2>Responsive Web Design</h2>
+              <p>More about this thing</p></div>
             <div className="welcome-div">
-              <p>More about me</p></div>
+              <h2>React-Native in Action</h2>
+              <p>More about this thing</p></div>
             <div className="welcome-div">
-              <p>More about me</p></div>
-            <div className="welcome-div">
-              <p>More about me</p></div>
+              <h2>Purple Blue Green</h2>
+              <p>More about this thing</p></div>
           </div>
           <div className="space"></div>
         </div>
@@ -41,6 +55,7 @@ class App extends Component {
           Made with ❤️ in Phoenix. → <a style={{ paddingLeft: '3px' }} href="https://github.com/kale-stew/mobile-portfolio" alt="checkout the git">view source</a>
         </footer>
       </div>
+      </StyleRoot>
     );
   }
 }
