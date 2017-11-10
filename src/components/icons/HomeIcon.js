@@ -10,7 +10,15 @@ export const HomeIcon = () => ({
 
     render() {
         return (
-            <svg className="home" xmlns="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 33 33" aria-labelledby="home" width={this.props.width} height={this.props.height}>
+            <svg 
+                className="home" 
+                xmlns="http://www.w3.org/2000/svg" 
+                xmlns="http://www.w3.org/1999/xlink" 
+                x="0px" y="0px" 
+                viewBox="0 0 33 33" 
+                aria-labelledby="home" 
+                width={this.props.width} 
+                height={this.props.height}>
             <title id="title">Home Icon</title>
                 <g>
                     <path d="M27.813,31.617H5.186c-0.276,0-0.5-0.224-0.5-0.5V12.521c0-0.276,0.224-0.5,0.5-0.5s0.5,0.224,0.5,0.5v18.096h21.627   V12.521c0-0.276,0.224-0.5,0.5-0.5s0.5,0.224,0.5,0.5v18.596C28.313,31.393,28.09,31.617,27.813,31.617z" fill="#FFFFFF"/>
