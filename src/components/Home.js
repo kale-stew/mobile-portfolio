@@ -5,7 +5,7 @@ import './styles/Home.css';
 
 const styles = {
   fadeIn: {
-    animation: 'x 3s',
+    animation: 'x 2s',
     animationName: Radium.keyframes(fadeIn, 'fadeIn')
   }
 }
@@ -13,12 +13,14 @@ const styles = {
 const Home = () => {
     return (
         <div className="body">
-            <h1 className="reveal-text">Kylie Stewart</h1>
-            <div className="aboutme">
-                <p></p>
-            </div>
             <StyleRoot>
-            <div className="welcome" style={styles.fadeIn}>
+            <h1 className="reveal-text">Kylie Stewart</h1>
+            <div className="aboutme-wrap">
+                <div className="aboutme" style={styles.fadeIn}>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                </div>
+            </div>
+            <div className="welcome">
                 <div className="welcome-div">
                     <h2>Should I Hike Today?</h2>
                     <p>More about this thing</p></div>
@@ -38,7 +40,6 @@ const Home = () => {
                     <h2>Purple Blue Green</h2>
                     <p>More about this thing</p></div>
                 </div>
-            <div className="space"></div>
             </StyleRoot>
         </div>
     );
