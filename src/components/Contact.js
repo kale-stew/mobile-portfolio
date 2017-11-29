@@ -32,7 +32,12 @@ const Contact = () => {
                     <div className="github-linkedin-wrap">
                         <ContactCardIcon height="70px" width="70px"/>
                     </div>
-                    <button style={{ marginTop: '20px' }}>Download my Resume</button>
+                    <form method="get" action="KylieStewart-CV.pdf">
+                        <button type="submit" style={{ marginTop: '20px' }}>Download my Fancy Resume</button>
+                    </form>
+                    <form method="get" action="KylieStewart-plaintext-CV.pdf">
+                        <button type="submit" style={{ marginTop: '12px' }}>Download my Plaintext Resume</button>
+                    </form>
                 </div>
             </StyleRoot>
             <div className="space"></div>
