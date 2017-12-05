@@ -1,0 +1,35 @@
+[
+    {
+        "title": "Locus News: A Smart News Aggregator",
+        "about": "A news aggregator that uses the Naive Bayes Classification Algorithm to categorize and deliver news based on set user preferences.",
+        "img": "",
+        "tags": ["reactjs", "postgreSQL", "machine learning"],
+        "github-link": "https://github.com/teamlocus/locus-news",
+        "live-link": "https://locus-news.firebaseapp.com/#/"
+    },
+    {
+        "title": "Should I Hike Today?",
+        "about": "An app that renders a response based on Wunderground's API data for a given National Park. Lets you know whether or not conditions are ideal for a hike.",
+        "img": "",
+        "tags": ["reactjs", "sockets", "nodejs"],
+        "github-link": "https://github.com/kale-stew/should-i-hike-today",
+        "live-link": "https://should-i-hike.now.sh/#/"
+    },
+    {
+        "title": "Houser: Property Management Made Simple",
+        "about": "An app that allows for an admit to post and modify available home listings as well as allow for users to view and filter listings by type, price, or size.",
+        "img": "",
+        "tags": ["redux", "reactjs", "postgreSQL"],
+        "github-link": "https://github.com/kale-stew/housing-wizard",
+        "live-link": ""
+    }
+]
+
+// {
+//     "title": "",
+//     "about": "",
+//     "img": "",
+//     "tags": ["", "", ""],
+//     "github-link": "",
+//     "live-link": ""
+// }

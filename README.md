@@ -22,3 +22,6 @@ A repo for my website: [`kylieis.online`](https://kylie-is-online.now.sh/#/). I 
 - temporarily hosted @ `kylie-is-online.now.sh` using `zeit`
 - animated title 
 - animated boxes
+
+## Stretch Goal:
+- 'filter by' project subject tags --> click on `nodejs` and view all projects tagged `nodejs`

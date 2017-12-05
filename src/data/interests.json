@@ -1,0 +1,32 @@
+[
+    {
+        "title": "sockets.io",
+        "about": "I am working to display live twitter feeds on one of my completed personal projects using sockets. The twitter accounts I will be displaying were self-built using node.js and twit.",
+        "tags": ["code"]
+    },
+    {
+        "title": "Eloquent JavaScript",
+        "about": "I was recommended this book so many times, I finally allowed it to jump to the top of my book queue.",
+        "tags": ["read"]
+    },
+    {
+        "title": "Über Responsive Web Design",
+        "about": "",
+        "tags": ["code"]
+    },
+    {
+        "title": "Machine Learning",
+        "about": "",
+        "tags": ["code"]
+    },
+    {
+        "title": "",
+        "about": "",
+        "tags": ["hobby"]
+    },
+    {
+        "title": "",
+        "about": "",
+        "tags": [""]
+    }
+]
